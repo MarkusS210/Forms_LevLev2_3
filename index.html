@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms_Lev3_2</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend> Register form</legend>
+        <section>
+            <label for="Vorname" required="">Vorname</label>
+            <input type="text" name="Vorname" id="Vorname" placeholder="Vorname">
+        </section>
+        <section>
+            <label for="Nachname" required="">Nachname</label>
+            <input type="text" name="Nachname" id="Nachname" placeholder="Nachname">
+        </section>
+        <section>
+            <label for="Email" required="">Email</label>
+            <input type="email" name="Email" id="Email" placeholder="Email">
+        </section>
+        <section>
+            <label for="Gender" required="">Gender</label>
+            <input type="radio" name="Gender" id="Male">
+            <input type="radio" name="Gender" id="Fermale">
+        </section>
+        <section>
+            <label for="Picture">Picture</label>
+            <input type="file" name="Picture" id="Picture">
+        </section>
+        <section>
+            <label for="Country">Country</label>
+            <select name="Country" id="Country">
+                <option value="Germany">Germany</option>
+                <option value="France">France</option>
+                <option value="England">England</option>
+            </select>
+        </section>
+        <section>
+            <label for="Preferred languages">Preferred languages</label>
+            <select name="Preferred languages" id="Preferred languages">
+                <option value="HTML">HTML</option>
+                <option value="Css">Css</option>
+                <option value="JS">JS</option>
+                <option value="React">React</option>
+            </select>
+        </section>
+        <section class="checkbox">
+            <label for="Fieled of activity">Fieled of activity</label>
+            <input type="checkbox" name="IT" id="IT">
+            <label for="It">IT</label>
+            
+            <input type="checkbox" name="Design" id="Design">
+            <label for="Design">Design</label>
+            
+            <input type="checkbox" name="Other" id="Other">
+            <label for="Other">Other</label>
+        </section>
+
+        <div>
+            <input type="submit" value="Send">
+            <input type="button" value="Cancel">
+        </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
